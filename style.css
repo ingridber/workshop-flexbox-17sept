@@ -81,3 +81,19 @@ section .yellow {
     
 }
 
+/* Order */
+
+.order{
+    background-color: purple;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.order div{
+    background-color: peru;
+    width: 20px;
+}
+
+.number-3{
+    order: 3;
+}
