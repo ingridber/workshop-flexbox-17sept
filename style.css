@@ -35,3 +35,22 @@ section .yellow {
 .green {
     background-color: green;
 }
+
+.box-in-box{
+    width: 500px;
+    height: 500px;
+    background-color: aquamarine;
+    border: 5px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: end;
+
+
+}
+.box{
+    height: 100px;
+    width: 100px;
+    border: 3px solid white;
+    background-color: blueviolet;
+}
